@@ -1,0 +1,22 @@
+<!-- <svg className="header-curve-svg1" width="100%" height="100%" viewBox="0 0 100% 100%" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);">
+    <path className="header-svg-curve-path1" d="M0,100 C190,0 150,120 450,60 C650,20 650,100 890,55 C1050,20 1000,100 1450,90 V-10 H0 Z" fill="#de007b" />
+    <path className="header-svg-curve-path1" d="M0,60 C190,0 150,120 450,60 C650,20 650,100 890,55 C1050,20 1000,100 1450,90 V-10 H0 Z" fill="#4ca6ff" />
+    <path className="header-svg-curve-path2" d="M0,60 C190,0 150,120 450,60 C650,20 650,100 890,55 C1050,30 1000,80 1450,60 V-10 H0 Z" fill="#000000" fill-opacity="0.9" />
+</svg> -->
+<!-- V-10 H0 Z -->
+<!-- rgb(95, 92, 222) -->
+<!-- <svg className="header-curve-svg1" width="100%" height="100%" viewBox="0 0 100% 100%" xmlns="http://www.w3.org/2000/svg" style="">
+    <path className="header-svg-curve-path1" d="M0,650 C50,680 50,600 150,650 C250,690 250,600 350,650 C450,690 450,600 550,650 C650,690 650,600 750,650 C850,690 850,600 950,650 C1050,690 1050,600 1150,650 C1250,690 1250,600 1350,650 V-10 H0 Z" stroke="none" fill="rgb(13, 20, 34)"/>
+</svg> -->
+
+<!-- <svg className="header-curve-svg1" width="100%" height="100%" viewBox="0 0 100% 100%" xmlns="http://www.w3.org/2000/svg" style="">
+    <path className="header-svg-curve-path1" d="M0,450 C50,480 50,400 150,450 C250,490 250,400 350,450 C450,490 450,400 550,450 C650,490 650,400 750,450 C850,490 850,400 950,450 C1050,490 1050,400 1150,450 C1250,490 1250,400 1350,450 V-10 H0 Z" stroke="none" fill="rgb(13, 20, 34)" />
+</svg> -->
+
+<!-- <svg className="header-curve-svg1" width="100%" height="100%" viewBox="0 0 100% 100%" xmlns="http://www.w3.org/2000/svg" style="">
+    <path className="header-svg-curve-path1" d="M0,550 C50,580 50,500 150,550 C250,590 250,500 350,550 C450,590 450,500 550,550 C650,590 650,500 750,550 C850,590 850,500 950,550 C1050,590 1050,500 1150,550 C1250,590 1250,500 1350,550 V-10 H0 Z" stroke="none" fill="rgb(13, 20, 34)" />
+</svg> -->
+
+<svg className="header-curve-svg1" width="100%" height="100%" viewBox="0 0 100% 100%" xmlns="http://www.w3.org/2000/svg" style="">
+    <path className="header-svg-curve-path1" d="M0,500 C50,530 50,450 150,500 C250,540 250,450 350,500 C450,540 450,450 550,500 C650,540 650,450 750,500 C850,540 850,450 950,500 C1050,540 1050,450 1150,500 C1250,540 1250,450 1450,500 V-10 H0 Z" stroke="none" fill="rgb(13, 20, 34)" />
+</svg>

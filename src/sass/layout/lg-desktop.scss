@@ -1,0 +1,1346 @@
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1024px) 
+and (max-width : 1839px) {
+
+    #root {
+        // border: 5px solid red;
+
+        .app-container {
+            width: 100%;
+
+            .header-container {
+
+                .header-appbar-container {
+                    width: 100%;
+    
+                    .header-appbar {
+                        width: 100%;
+                        // background-color: #000000;
+                        background-color: transparent;
+                        box-shadow: none;
+    
+                        .header-toolbar-container {
+                            width: 100%;
+                            // background-color: #000000;
+                            // background-color: transparent;
+                            // background-color: rgb(224,224,224);
+                            background-color: #fff;
+                            z-index: 999;
+    
+                            .header-toolbar-flex {
+                                width: 100%;
+                                // border: 2px solid red;
+                                padding: 0px;
+    
+                                .header-toolbar-item {
+    
+                                    &:first-child {
+                                        width: 15%;
+                                        display: flex;
+                                        justify-content: flex-start;
+                                        // border: 1px solid red;
+                                        padding-left: 15px;
+        
+                                        .image-cover {
+                                            width: 80%;
+            
+                                            .logo-img {
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+    
+                                    &:nth-child(2) {
+                                        width: 85%;
+                                        display: flex;
+                                        justify-content: center;
+                                        // border: 1px solid blue;
+    
+                                        .header-toolbar-link-item {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            
+                                            .link-cover-item {
+                                                width: 25%;
+                                                height: 100px;
+                                                border-left: 1px solid rgba(0,0,0,0.2);
+                                                transition: 0.05s ease-in all;
+    
+                                                .toolbar-link-a {
+                                                    width: 100%;
+                                                    display: inline-block;
+                                                    text-align: center;
+                                                    line-height: 100px;
+                                                    // border: 1px solid green; #f9f9f9
+                                                    // font-weight: bold;
+                                                    text-decoration: none;
+                                                    // color: rgb(225,225,225);
+                                                    // color: rgba(0,0,0,0.8);
+                                                    color: rgb(13, 20, 34);
+                                                    transition: 0.1s ease-in all;
+
+                                                    &:hover {
+                                                        background-color: rgba(180,180,180,0.2);
+                                                    }
+                                                }
+                                                .toolbar-link-active {
+                                                    // color: rgb(54, 84, 141);
+                                                    // color: #3f9bf7;
+                                                    color: rgba(224,224,224,0.8);
+                                                    font-weight: bold;
+                                                    background-color: rgb(13, 20, 34);
+
+                                                    &:hover {
+                                                        background-color: rgb(13, 20, 34);
+                                                    }
+                                                }
+
+                                                &:last-child {
+                                                    // border-right: 1px solid rgba(0,0,0,0.4);
+                                                }
+                                            }
+                                            .link-cover-item-active {
+                                                border: none;
+                                            }
+                                        }
+                                    }
+    
+                                    &:last-child {
+                                        display: none;
+                                        width: 10%;
+                                        border: 1px solid red;
+                                    }
+                                }
+                            }
+                        }
+
+                        .header-curve-svg1 {
+                            width: 100% !important;
+                            margin-top: -40px;
+                            z-index: 1;
+
+                            .header-svg-curve-path1 {
+                                fill: #000000;
+                                filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
+                                // box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+                            }
+                        }
+                        .header-curve-svg2 {
+                            width: 100%;
+                            margin-top: -143px;
+                            z-index: 0.5;
+
+                            .header-svg-curve-path2 {
+                                fill: #4ca6ff;
+                                filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
+                                // box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+                            }
+                        }
+                    }
+                    .header-appbar-fixed {
+                        position: fixed;
+
+                        .header-toolbar-container {
+                            box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+
+
+                            .header-toolbar-item {
+    
+                                &:first-child {
+                                    
+                                    .image-cover {
+                                        width: 70% !important;
+        
+                                        .logo-img {
+                                            width: 100%;
+                                        }
+                                    }
+                               }
+                               &:nth-child(2) {
+
+                                    .link-cover-item {
+                                        width: 25%;
+                                        height: 70px !important;
+        
+                                        .toolbar-link-a {
+                                            line-height: 70px !important;
+                                            // border: 2px solid red;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .body-container {
+                width: 100%;
+
+                .body-home-container {
+                    width: 100%;
+    
+                    .hero-container {
+                        width: 100%;
+    
+                        .hero-container-flex {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            // padding-top: 80px;
+    
+                            .hero-container-item {
+                                width: 100%;
+                                height: 600px;
+                                // border: 3px solid green;
+
+                                background: url('/svg/hero-vector-curve.svg') no-repeat 100%;
+                                background-position: 0 0px;
+                                // background-color: rgb(224,224,224);
+                                background-color: #fff;
+    
+                                .hero-carousel-cover {
+                                    width: 100%;
+                                    // background-color: rgb(224,224,224);
+
+                                    & > div {
+                                        
+                                        .hero-cover-flex {
+                                            width: 100%;
+                                            height: 100%;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            // border: 3px solid red;
+            
+                                            .hero-cover-item {
+                                                // border: 1px solid green;
+                                                display: flex;
+                                                justify-content: center;
+                                                // align-items: center;
+                                                padding-top: 80px;
+            
+                                                &:first-child {
+                                                    width: 45%;
+                                                    // border: 1px solid green;
+                                                    position: relative;
+
+                                                    .slide-text-btn-cover {
+                                                        position: absolute;
+                                                        width: 90%;
+                                                        // border: 1px solid green;
+                                                        left: 100px;
+                                                        // bottom: 180px;
+                                                        // padding-right: 50px;
+                                                        padding-top: 30px;
+
+                                                        .slide-text-cover {
+                                                            width: 100%;
+                                                            border-right: 6px solid rgba(100,100,100,0.4);
+                                                            text-align: right;
+                                                            padding-right: 50px;
+                                                            padding-top: 25px;
+                
+                                                            .slide-text {
+                                                                font-size: ($fontSize_xl * 2);
+                                                                margin-bottom: 0rem;
+                                                                color: #de007b;
+                                                                margin-block-end: 0em;
+                                                                margin-block-start: 0em;
+                                                                line-height: 35px;
+
+                                                                .text-first-line {
+                                                                    // color: #4ca6ff !important;
+                                                                    color: #1976d2;
+                                                                }
+                                                            }
+                                                            .slide-text1 {
+                                                                font-size: ($fontSize_xl * 2.1);
+                                                                margin-bottom: 0rem;
+                                                                margin-block-end: 0em;
+                                                                margin-block-start: 0em;
+                                                                color: rgb(100,100,100);
+                                                                font-weight: 200;
+                                                                // line-height: 35px;
+                                                            }
+                                                            .slide-text2 {
+                                                                font-size: ($fontSize_xl * 1.5);
+                                                                margin-bottom: 0rem;
+                                                                margin-block-end: 0em;
+                                                                margin-block-start: 0em;
+                                                                // color: #de007b;
+                                                                color: rgb(180,180,200);
+                                                                font-weight: 400;
+                                                                line-height: 35px;
+                                                            }
+                                                            .slide-text3 {
+                                                                font-size: ($fontSize_xl * 2);
+                                                                margin-bottom: 0rem;
+                                                                margin-block-end: 0em;
+                                                                margin-block-start: 0em;
+                                                                // color: #de007b;
+                                                                color: rgb(224,224,224);
+                                                            }
+                                                        }
+                                                        .slide-subtext-cover {
+                                                            width: 100%;
+                                                            // border: 1px solid red;
+                
+                                                            .slide-subtext {
+                                                                font-size: $fontSize_lg;
+                                                                margin-block-start: 0.7em;
+                                                                margin-block-end: 0.7em;
+                                                            }
+                                                        }
+                                                        .slide-btn-cover {
+                                                            width: 100%;
+                
+                                                            .btn-cover-flex {
+                
+                                                                .btn-cover-item {
+                
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+            
+                                                &:last-child {
+                                                    width: 55%;
+            
+                                                    .slide-image-cover-flex {
+                                                        width: 80%;
+                                                        display: flex;
+                                                        justify-content: center;
+            
+                                                        .slide-image-cover-item {
+                                                            width: 75%;
+            
+                                                            .slide-img {
+                                                                width: 100%;
+                                                            }
+                                                        }
+                                                    }
+
+                                                    // #slide_image_cover_flex_0 {
+                                                    //     width: 100%;
+
+                                                    //     #slide_image_cover_item_0 {
+                                                    //         width: 100%;
+                                                    //         // height: 500px;
+                                                    //         // border: 1px solid red;
+                                                    //         display: flex;
+                                                    //         justify-content: center;
+                                                    //         align-items: center;
+
+                                                    //         #slide_img_0 {
+                                                    //             width: 100%;
+                                                    //             height: 100%;
+                                                    //         }
+                                                    //     }
+                                                    // }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .home-about-us-container {
+                        width: 100%;
+
+                        .home-about-us-container-flex {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+
+                            .home-about-us-container-item {
+                                width: 100%;
+                                // background-color: rgb(224,224,224);
+                                background-color: #fff;
+                                padding-bottom: 100px;
+
+                                .about-us-cover-flex {
+                                    width: 100%;
+                                    justify-content: center;
+
+                                    .about-us-cover-item {
+                                        width: 100%;
+
+                                        .item-header-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .item-header-cover-item {
+                                                width: 100%;
+
+                                                // .header-text-cover {
+                                                //     width: 100%;
+                                                //     text-align: center;
+                                                //     padding-bottom: 40px;
+
+                                                //     .header-text {
+                                                //         font-size: ($fontSize_md * 1.5);
+                                                //         font-weight: 600;
+                                                //         color: rgb(13, 20, 34);
+                                                //         margin-block-end: 0.5em;
+                                                //         margin-bottom: 0rem;
+                                                //     }
+                                                //     .header-text-underline-cover {
+                                                //         width: 100%;
+                                                //         display: flex;
+                                                //         justify-content: center;
+                                                //         margin-block-start: 0.8em;
+
+                                                //         .text-underline-span {
+                                                //             width: 8%;
+                                                //             height: 4px;
+                                                //             border-radius: 5px;
+                                                //             // background-color: rgb(13, 20, 34);
+                                                //             background-color: #1976d2;
+                                                //         }
+                                                //     }
+                                                // }
+                                            }
+                                        }
+                                        .item-content-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .item-content-cover-item {
+                                                width: 80%;
+                                                padding: 20px;
+                                                padding-top: 150px;
+                                                // border: 1px solid rgba(224,224,224,0.8);
+                                                // border-radius: 10px;
+                                                // background: url('/svg/about-us-section.svg') no-repeat 100%;
+                                                // background-color: rgba(224,224,224,0.8);
+                                                background-color: #fff;
+                                                // box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+
+                                                .content-cover-flex {
+                                                    width: 100%;
+                                                    display: flex;
+                                                    justify-content: space-between;
+
+                                                    .content-cover-item {
+                                                        // width: 50%;
+
+                                                        &:first-child {
+                                                            width: 50%;
+                                                            // background-color: rgb(13, 20, 34);
+
+
+                                                            .right-section-image-cover {
+                                                                width: 100%;
+ 
+                                                                 .image-cover-flex {
+                                                                     width: 100%;
+                                                                     display: flex;
+                                                                     justify-content: flex-start;
+                                                                     // box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+                                                                    //  overflow: hidden;
+                                                                     // border-radius: 30px;
+                                                                     padding-top: 20px;
+ 
+                                                                     .image-cover-item {
+                                                                         width: 65%;
+                                                                        //  height: 400px;
+                                                                         padding-top: 150px;
+                                                                         padding-bottom: 50px;
+                                                                         display: flex;
+                                                                         justify-content: center;
+                                                                         // background-color: rgb(13, 20, 34);
+                                                                         background-color: rgba(235, 243, 245, 0.89);
+                                                                         // background-color: #1976d2;
+                                                                         box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+                                                                         border-radius: 30px;
+ 
+                                                                         .right-section-img {
+                                                                             width: 100%;
+                                                                            //  height: 100%;
+                                                                         }
+                                                                     }
+                                                                 }
+                                                             }
+
+                                                            
+                                                        }
+                                                        &:last-child {
+                                                            width: 50%;
+                                                            // border-left: 1px solid rgba(224,224,224,0.8);
+                                                            // border-left: 1px solid rgb(13, 20, 34);
+
+                                                            .header-text-cover {
+                                                                width: 100%;
+                                                                // text-align: center;
+                                                                padding-bottom: 0px;
+            
+                                                                .header-text {
+                                                                    font-size: ($fontSize_md * 1);
+                                                                    font-weight: 600;
+                                                                    // color: rgb(13, 20, 34);
+                                                                    color: #1976d2;
+                                                                    margin-block-end: 0.5em;
+                                                                    margin-bottom: 0rem;
+                                                                }
+                                                                .header-text-underline-cover {
+                                                                    width: auto;
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    margin-block-start: 0.8em;
+                                                                    // text-align: center;
+                                                                    // border: 1px solid blue;
+                                                                        display: none;
+            
+                                                                    .text-underline-span {
+                                                                        width: 40%;
+                                                                        height: 4px;
+                                                                        border-radius: 5px;
+                                                                        // background-color: rgb(13, 20, 34);
+                                                                        background-color: #1976d2;
+                                                                    }
+                                                                }
+                                                            }
+
+                                                            .content-title-cover {
+                                                                padding-bottom: 5px;
+                                                                // text-align: center;
+
+                                                                .header-title {
+                                                                    font-weight: 400;
+                                                                    font-size: ($fontSize_md * 1);
+                                                                    color: rgb(13, 20, 34);
+                                                                    // color: rgba(224,224,224,0.8);
+                                                                    line-height: 40px;
+                                                                }
+                                                            }
+                                                            .content-subtitle-cover {
+
+                                                                .header-subtitle {
+                                                                    color: rgba(13, 20, 34, 0.8);
+                                                                    line-height: 40px;
+                                                                }
+                                                            }
+                                                            .content-link-cover {
+                                                                width: 100%;
+
+                                                                .content-link-cover-flex {
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    justify-content: flex-start;
+                                                                    padding-top: 30px;
+
+                                                                    .content-link-cover-item {
+                                                                        width: 40%;
+                                                                        // border: 1px solid red;
+                                                                        height: 40px;
+
+                                                                        .content-link {
+                                                                            width: 100%;
+                                                                            background-color: transparent;
+                                                                            border: 2px solid rgba(13, 20, 34, 0.8);
+                                                                            color: rgba(13, 20, 34, 0.8);
+                                                                            display: inline-block;
+                                                                            line-height: 40px;
+                                                                            text-decoration: none;
+                                                                            text-align: center;
+                                                                            border-radius: 3px;
+                                                                            transition: 0.2s ease-in all;
+
+                                                                            &:hover {
+                                                                                // border: none;
+                                                                                background-color: rgba(13, 20, 34, 1);
+                                                                                color: rgba(224,224,224,0.8);
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .home-services-container {
+                        width: 100%;
+
+                        .home-services-container-flex {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+
+                            .home-services-container-item {
+                                width: 100%;
+                                background: url('/svg/service-section.svg') no-repeat 100%;
+                                
+
+                                .bg-svg-overlay-icon-cover {
+                                    width: 100%;
+                                    padding-top: 50px;
+
+                                    .svg-overlay-icon-cover-flex {
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: center;
+
+                                        .svg-overlay-icon-cover-flex-item {
+                                            width: 10%;
+                                            height: 60px;
+                                            display: flex;
+                                            justify-content: center;
+                                            // border: 1px solid red;
+                                            border-top-left-radius: 50%;
+                                            border-top-right-radius: 50%;
+                                            position: relative;
+
+                                            .svg-overlay-icon-btn {
+                                                width: 100%;
+                                                // border: 1px solid red;
+
+                                                .svg-overlay-icon {
+                                                    position: absolute;
+                                                    top: 10px;
+                                                    font-size: ($fontSize_md * 1.5);
+                                                    color: rgb(224,224,224);
+                                                    transition: 0.2s ease-in all;
+                                                }
+                                            }
+
+                                            &:hover {
+                                                cursor: pointer;
+                                            }
+
+                                            &:hover .svg-overlay-icon-btn .svg-overlay-icon {
+                                                top: 20px;
+                                            }
+                                        }
+                                    }
+                                }
+                                
+
+                                .service-section-cover-flex {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+
+                                    .service-section-cover-item {
+                                        width: 95%;
+                                        padding-bottom: 150px;
+                                        // border: 1px solid red;
+                                        // background-color: rgba(255,255,255,0.8);
+
+                                        .service-section-header-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+                                            padding-top: 30px;
+                                            padding-bottom: 10px;
+
+                                            .section-header-cover-item {
+                                                width: 100%;
+                                                // border: 1px solid red;
+                                                text-align: center;
+
+                                                .header-cover-item {
+                                                    width: 100%;
+
+                                                    .header-title {
+                                                        font-size: ($fontSize_md * 1);
+                                                        color: rgba(224,224,224,0.8);
+                                                        // color: #1976d2;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                                .subheader-cover-item {
+                                                    width: 100%;
+
+                                                    .subheader-subtitle {
+
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        .service-picture-grid-cover {
+                                            width: 100%;
+                                            padding-bottom: 0px;
+                                            border-bottom: 1px solid rgba(215,215,215,0.2);
+                                            background-color: rgba(255,255,255,0.8);
+
+                                            &:last-child {
+                                                border-bottom: none;
+                                            }
+
+                                            .service-picture-grid-flex {
+                                                width: 100%;
+                                                display: flex;
+                                                justify-content: space-between;
+
+                                                .service-picture-grid-item {
+                                                    width: (100% / 4);
+                                                    height: 380px;
+                                                    // border-right: 1px solid rgba(244,244,244,0.8);
+                                                    border-right: 1px solid rgba(215,215,215,0.8);
+                                                    position: relative;
+                                                    // background-color: rgba(235, 243, 245, 0.89);
+                                                    background-color: #fff;
+
+                                                    &:last-child {
+                                                        border-right: none;
+                                                    }
+
+                                                    .grid-image-overlay {
+                                                        position: absolute;
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        background-color: rgba(0, 0, 0, 0);
+                                                        // background-color: rgba(0, 0, 0, 0.7);
+                                                        top: 0px;
+                                                        left: 0px;
+                                                        z-index: 99;
+                                                        transition: 0.2s ease-in all;
+
+                                                        .overlay-links {
+                                                            display: inline-block;
+                                                            width: 100%;
+                                                            height: 100%;
+                                                            line-height: 100%;
+                                                            // border: 1px solid green;
+                                                            overflow: hidden;
+
+                                                            .overlay-props-flex {
+                                                                position: relative;
+                                                                width: 100%;
+                                                                height: 100%;
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                align-items: center;
+
+                                                                .overlay-props-item {
+                                                                    // visibility: hidden;
+                                                                    position: absolute;
+                                                                    width: 85%;
+                                                                    // height: 50%;
+                                                                    background-color: rgba(255,255,255,0.0);
+                                                                    // padding-top: 115%;
+                                                                    bottom: -30px;
+                                                                    transition: 0.2s ease-in all;
+                                                                    border: 1px solid rgba(13, 20, 34, 0.1);
+                                                                    border-radius: 6px;
+
+                                                                    .overlay-title-header {
+                                                                        width: 100%;
+                                                                        text-align: center;
+                                                                        // border-bottom: 1px solid rgba(205,205,205,0.9);
+
+                                                                        .overlay-header-title {
+                                                                            font-size: ($fontSize_md / 1.4);
+                                                                            font-weight: 600;
+                                                                            // color: #fff;
+                                                                            // color: rgba(0,0,0,0.3);
+                                                                            color: rgba(13, 20, 34, 0.7);
+                                                                        }
+                                                                    }
+                                                                    .overlay-subtitle-header {
+                                                                        width: 100%;
+                                                                        text-align: center;
+
+                                                                        .overlay-header-subtitle {
+                                                                            font-size: ($fontSize_md / 2.3);
+                                                                            // color: rgba(0,0,0,0.5);
+                                                                            color: rgba(13, 20, 34, 0.7);
+                                                                        }
+                                                                    }
+                                                                }
+
+                                                                &:hover .overlay-props-item {
+                                                                    bottom: 140px;
+                                                                    background-color: rgba(255,255,255,0.7);
+                                                                    visibility: visible;
+                                                                }
+                                                                &:hover .overlay-props-item .overlay-header-title {
+                                                                    // color: rgba(0,0,0,0.7);
+                                                                    color: rgb(13, 20, 34);
+                                                                }
+                                                                &:hover .overlay-props-item .overlay-header-subtitle {
+                                                                    // color: rgba(0,0,0,0.7);
+                                                                    color: rgba(13, 20, 34, 0.7);
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                    &:hover .grid-image-overlay {
+                                                        // visibility: visible;
+                                                        background-color: rgba(0, 0, 0, 0.7);
+                                                        // background-color: rgba(255,255,255,1);
+                                                    }
+
+                                                    .grid-image-cover-flex {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        // border: 4px solid green;
+                                                        position: relative;
+
+                                                        .grid-image-cover-item {
+                                                            width: 65%;
+                                                            height: 280px;
+                                                            overflow: hidden;
+                                                            // background-color: rgba(244,244,244,1);
+                                                            border-radius: 0px;
+                                                            transition: 0.2s ease-in all;
+                                                            // border: 1px solid rgba(13, 20, 34,0.2);
+                                                            padding-left: 15px;
+                                                            padding-right: 15px;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+
+                                                            .grid-img {
+                                                                width: 100%;
+                                                            }
+                                                        }
+
+                                                        .service-name-cover {
+                                                            width: 100%;
+                                                            text-align: center;
+                                                            padding-bottom: 0px;
+                                                            // border: 2px solid red;
+                                                            position: absolute;
+                                                            bottom: 15px;
+                                                            // left: 40px;
+
+                                                            .service-name {
+                                                                font-size: ($fontSize_md / 1.2);
+                                                                color: rgba(13, 20, 34, 0.8);
+                                                                font-weight: 600;
+                                                            }
+                                                        }
+                                                    }
+
+                                                    &:hover .grid-image-cover-item {
+                                                        width: 70%;
+                                                    }
+                                                }
+
+                                                .service-picture-grid-item-row1 {
+
+                                                    &:first-child {
+                                                        border-top-left-radius: 6px;
+                                                        // border-radius: 20px;
+                                                        // border: 2px solid red;
+                                                    }
+
+                                                    &:nth-child(odd) {
+                                                        // background-color: rgba(235, 243, 245, 0.89);
+                                                        background-color: rgba(235,235,235,0.7);
+                                                    }
+
+                                                    &:last-child {
+                                                        // border-right: none;
+                                                        border-top-right-radius: 6px;
+                                                    }
+                                                }
+                                                .service-picture-grid-item-row2 {
+
+                                                    &:first-child {
+                                                        border-bottom-left-radius: 6px;
+                                                        // border-radius: 20px;
+                                                        // border: 2px solid red;
+                                                    }
+
+                                                    &:nth-child(even) {
+                                                        // background-color: rgba(235, 243, 245, 0.89);
+                                                        background-color: rgba(235,235,235,0.7);
+                                                    }
+
+                                                    &:last-child {
+                                                        // border-right: none;
+                                                        border-bottom-right-radius: 6px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .service-picture-grid-cover-row1 {
+                                            // background-color: red;
+                                            border-top-left-radius: 6px;
+                                            border-top-right-radius: 6px;
+                                        }
+                                        .service-picture-grid-cover-row2 {
+                                            // background-color: red;
+                                            border-bottom-left-radius: 6px;
+                                            border-bottom-right-radius: 6px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .home-portfolio-container {
+                        width: 100%;
+
+                        .home-portfolio-container-flex {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+
+                            .home-portfolio-container-item {
+                                width: 100%;
+
+                                .home-portfolio-cover-flex {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: space-between;
+
+                                    .home-portfolio-cover-item {
+                                        width: 50%;
+
+                                        &:first-child {
+                                            background-color: rgba(235, 235, 235, 0.7);
+                                            // background-color: rgba(235, 243, 245, 0.3);
+                                            padding-bottom: 55px;
+
+                                            .portfolio-text-cover-flex {
+                                                width: 100%;
+                                                display: flex;
+                                                justify-content: center;
+
+                                                .portfolio-text-cover-item {
+                                                    width: 80%;
+
+                                                    .text-header-cover {
+                                                        width: 100%;
+                                                        text-align: left;
+                                                        padding-top: 30px;
+                                                        padding-bottom: 5px;
+
+                                                        .header-title {
+                                                            font-size: ($fontSize_md / 1.2);
+                                                            font-weight: 600;
+                                                            color: #4ca6ff;
+                                                            margin-block-end: 0.5em;
+                                                        }
+                                                    }
+                                                    .text-subheader-cover1 {
+                                                        width: 100%;
+                                                        padding-top: 0px;
+                                                        padding-bottom: 0px;
+
+                                                        .header-subtitle {
+                                                            font-size: ($fontSize_md / 1.2);
+                                                            color: rgba(13, 20, 34, 0.8);
+                                                            line-height: 35px;
+                                                        }
+                                                    }
+                                                    .text-subheader-cover2 {
+                                                        width: 100%;
+                                                        padding-top: 5px;
+                                                        padding-bottom: 40px;
+
+                                                        .header-subtitle {
+                                                            font-size: ($fontSize_md / 1.4);
+                                                            color: rgba(13, 20, 34, 0.8);
+                                                            line-height: 35px;
+                                                        }
+                                                    }
+                                                    .text-link-cover {
+                                                        width: 100%;
+
+                                                        .link-cover-flex {
+                                                            width: 100%;
+                                                            display: flex;
+                                                            // justify-content: center;
+                                                            justify-content: flex-start;
+
+                                                            .link-cover-item {
+                                                                width: 30%;
+                                                                height: 40px;
+
+                                                                .portfolio-link {
+                                                                    width: 100%;
+                                                                    height: 100%;
+                                                                    display: inline-block;
+                                                                    line-height: 40px;
+                                                                    border: 1.5px solid rgb(13, 20, 34);
+                                                                    border-radius: 4px;
+                                                                    text-decoration: none;
+                                                                    color: rgb(13, 20, 34);
+                                                                    text-align: center;
+                                                                    transition: 0.2s ease-in all;
+
+                                                                    &:hover {
+                                                                        background-color: rgb(13, 20, 34);
+                                                                        color: #fff;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &:last-child {
+                                            background-color: rgba(235, 243, 245, 0.89);
+
+                                            .portfolio-carousel-flex {
+                                                width: 100%;
+                                                height: 100%;
+                                                display: flex;
+                                                justify-content: center;
+
+                                                .portfolio-carousel-item {
+                                                    width: 100%;
+                                                    // height: 500px;
+                                                    // border: 1px solid red;
+
+                                                    .portfolio-carousel-cover {
+                                                        width: 100%;
+                                                        // border: 2px solid green;
+                                                        
+                                                        .portfolio-carousel-items {
+                                                            width: 100%;
+                                                            height: 100%;
+                                                            position: relative;
+            
+                                                            .portfolio-overlay-cover {
+                                                                position: absolute;
+                                                                width: 100%;
+                                                                height: 100%;
+                                                                background-color: rgba(0, 0, 0, 0.2);
+            
+                                                                .portfolio-overlay-link-cover {
+                                                                    width: 100%;
+                                                                    height: 100%;
+            
+                                                                    .portfolio-carousel-link {
+                                                                        width: 100%;
+                                                                        height: 100%;
+                                                                        display: inline-block;
+                                                                        line-height: 100%;
+                                                                        // border: 1px solid blue;
+                                                                        text-decoration: none;
+            
+                                                                        .portfolio-link-props-cover-flex {
+                                                                            width: 100%;
+                                                                            height: 100%;
+                                                                            display: flex;
+                                                                            justify-content: flex-start;
+                                                                            align-items: flex-end;
+                                                                            // border: 1px solid red;
+            
+                                                                            .portfolio-link-props-cover-item {
+                                                                                width: 100%;
+                                                                                // border: 1px solid rgba(244,244,244,0.8);
+                                                                                // padding-left: 20px;
+                                                                                margin-bottom: 25px;
+            
+                                                                                .portfolio-carousel-name {
+                                                                                    font-size: ($fontSize_md / 1.5);
+                                                                                    // text-align: left;
+                                                                                    text-align: center;
+                                                                                    // color: rgba(224,224,224,0.8);
+                                                                                    color: rgb(13, 20, 34);
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            .portfolio-image-cover-flex {
+                                                                width: 100%;
+                                                                height: 100%;
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                // border: 2px solid blue;
+            
+                                                                .portfolio-image-cover-item {
+                                                                    width: 50%;
+                                                                    // border: 2px solid red;
+            
+                                                                    .portfolio-img {
+                                                                        width: 100%;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .portfolio-carousel-btn-wrapper {
+                                                        width: 17% !important;
+                                                        height: 7%;
+                                                        left: -55px;
+                                                        bottom: 50% !important;
+                                                        // border: 1px solid red;
+                                                        border-radius: 5px;
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        // background-color: #4ca6ff;
+
+
+                                                        .portfolio-carousel-btn1 {
+                                                            width: 50% !important;
+                                                            height: 100% !important;
+                                                            // border: 1px solid blue !important;
+                                                            border-top-left-radius: 5px;
+                                                            border-bottom-left-radius: 5px;
+                                                            background-color: rgb(13, 20, 34);
+                                                            // color: rgb(13, 20, 34) !important;
+                                                        }
+                                                        .portfolio-carousel-btn2 {
+                                                            width: 50% !important;
+                                                            height: 100% !important;
+                                                            // border: 1px solid blue !important;
+                                                            border-top-right-radius: 5px;
+                                                            border-bottom-right-radius: 5px;
+                                                            // background-color: rgb(13, 20, 34);
+                                                            background-color: rgba(224,224,224,0.8);
+                                                            color: rgb(13, 20, 34) !important;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .home-partners-container {
+                        width: 100%;
+
+                        .home-partners-container-flex {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+
+                            .home-partners-container-item {
+                                width: 90%;
+                                border: 1px solid lightgrey;
+                                border-top: none;
+
+                                .partner-section-flex-cover {
+                                    width: 100%;
+
+                                    .partner-section-cover-flex1 {
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        border-bottom: 1px solid lightgrey;
+
+                                        .partner-section-cover-item {
+                                            width: (100% / 3);
+                                            height: 100px;
+                                            border-left: 1px solid lightgrey;
+
+                                            &:first-child {
+                                                border-left: none; 
+                                            }
+
+                                            &:last-child {
+                                                border-right: none;
+                                            }
+                                        }
+                                    }
+                                    .partner-section-cover-flex2 {
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: space-between;
+
+                                        .partner-section-cover-item {
+                                            width: (100% / 3);
+                                            height: 500px;
+                                            border-left: 1px solid lightgrey;
+
+                                            &:first-child {
+                                                // width: 32%;
+                                                border-left: none;
+
+                                                .partner-section-item-cover {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    // border: 1px solid red;
+
+                                                    .partner-section-item-flex1 {
+                                                        width: 100%;
+                                                        height: 30%;
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        border-bottom: 1px solid lightgrey;
+
+                                                        .partner-section-item {
+                                                            width: 50%;
+                                                            height: 100%;
+                                                            border-left: 1px solid lightgrey;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+
+                                                            &:first-child {
+                                                                border-left: none;
+                                                            }
+
+                                                            .partner-name-text {
+                                                                font-size: ($fontSize_md / 1.5);
+                                                                font-weight: 400;
+                                                            }
+                                                        }
+                                                    }
+                                                    .partner-section-item-flex2 {
+                                                        width: 100%;
+                                                        height: 70%;
+                                                        // border: 1px solid red;
+                                                        display: flex;
+                                                        justify-content: center;
+
+                                                        .experience-years-cover-item {
+                                                            width: 80%;
+                                                            height: 100%;
+
+                                                            .experience-years-number-img-cover {
+                                                                width: 100%;
+                                                                // height: 100%;
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                // align-items: center;
+                                                                text-align: center;
+                                                                // border: 1px solid blue;
+
+                                                                .experience-years-number {
+                                                                    font-size: ($fontSize_lg * 10);
+                                                                    color: rgba(10,10,10,0.8);
+                                                                    // color: rgb(13, 20, 34);
+                                                                    margin-bottom: 0rem;
+                                                                    margin-block-start: 0em;
+                                                                    margin-block-end: 0em;
+                                                                    line-height: 260px;
+                                                                }
+                                                            }
+                                                            .experience-years-number-text-cover {
+                                                                width: 100%;
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                text-align: center;
+
+                                                                .experience-years-number-text {
+                                                                    font-size: ($fontSize_md / 1.7);
+                                                                    font-weight: 400;
+                                                                    // color: rgb(13, 20, 34);
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &:nth-child(2) {
+                                                
+                                                .partner-section-item-cover {
+                                                    width: 100%;
+                                                    height: 100%;
+
+                                                    .partner-section-item-flex1 {
+                                                        width: 100%;
+                                                        height: 60%;
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        flex-flow: row wrap;
+                                                        border-bottom: 1px solid lightgrey;
+                                                        // border: 1px solid red;
+
+                                                        .partner-section-item {
+                                                            // width: (100% / 2);
+                                                            width: 49.8%;
+                                                            height: 50%;
+                                                            border-left: 1px solid lightgrey;
+                                                            border-bottom: 1px solid lightgrey;
+                                                            // border: 1px solid blue;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+
+                                                            &:first-child {
+                                                                border-left: none;
+                                                            }
+                                                            &:nth-child(3) {
+                                                                border-left: none;
+                                                                border-bottom: none;
+                                                            }
+                                                            &:last-child {
+                                                                // border-left: none;
+                                                                border-bottom: none;
+                                                            }
+
+                                                            .partner-name-text {
+                                                                font-size: ($fontSize_md / 1.5);
+                                                                font-weight: 400;
+                                                            }
+                                                        }
+                                                    }
+                                                    .partner-section-item-flex2 {
+
+                                                        .partner-section-item {
+
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &:last-child {
+                                                background-color: rgba(235,235,235,0.3);
+
+                                                .partner-section-text-cover {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    // border: 1px solid red;
+
+                                                    .partner-section-text-flex {
+                                                        width: 100%;
+                                                        display: flex;
+                                                        justify-content: center;
+
+                                                        .partner-section-text-item {
+                                                            width: 80%;
+    
+                                                            .text-header-cover {
+                                                                width: 100%;
+                                                                // text-align: center;
+    
+                                                                .header-text {
+                                                                    font-size: ($fontSize_md * 1.5);
+                                                                }
+                                                            }
+                                                            .text-subheader-cover {
+                                                                width: 100%;
+    
+                                                                .subheader-text {
+                                                                    font-size: ($fontSize_md / 1.5);
+                                                                    line-height: 30px;
+                                                                    color: rgba(100,100,100,0.7);
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

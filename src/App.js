@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Routes as ROUTES } from './Routes';
+import PageController from './Controllers/PageController';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import './sass/app.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <Router>
+        <Switch>
+          <Route exact path={ROUTES.home} render={(props) => <PageController {...props} />} />
+          <Route path={ROUTES.services} render={(props) => <PageController {...props} />} />
+          <Route path={ROUTES.gallery} render={(props) => <PageController {...props} />} />
+          <Route path={ROUTES.contactUs} render={(props) => <PageController {...props} />} />
+        </Switch>
+      </Router>
     </div>
   );
 }

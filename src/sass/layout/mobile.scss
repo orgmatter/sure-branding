@@ -1,0 +1,9 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 767px) {
+
+    #root {
+        border: 1px solid red;
+    }
+}
