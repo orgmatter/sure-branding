@@ -1,1 +1,1 @@
-web:nodejs
+web:npm run build
