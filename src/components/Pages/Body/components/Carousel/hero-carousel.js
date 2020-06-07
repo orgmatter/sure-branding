@@ -37,8 +37,11 @@ export default function HeroCarousel ({carouselProps}) {
     ))
 
     return (
-        <Carousel className="hero-carousel-cover" loop auto widgets={[IndicatorDots]}>
+        // <Carousel className="hero-carousel-cover" loop auto widgets={[IndicatorDots]}>
+        //     { HERO_CAROUSEL_ITEMS }
+        // </Carousel>
+        <div className="hero-carousel-cover">
             { HERO_CAROUSEL_ITEMS }
-        </Carousel>
+        </div>
     )
 }

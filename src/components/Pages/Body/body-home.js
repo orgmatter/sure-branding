@@ -5,6 +5,8 @@ import AboutUsSection from './components/Home/about-us-section';
 import ServiceSection from './components/Home/services-section';
 import PortfolioSection from './components/Home/portfolio-section';
 import PartnerSection from './components/Home/partners-section';
+import QuoteSection from './components/Home/quote-section';
+import TestimonySection from './components/Home/testimony-section';
 import IconButton from '@material-ui/core/IconButton';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
@@ -79,6 +81,20 @@ export default function BodyHome (props) {
                 <div className="home-partners-container-flex">
                     <div className="home-partners-container-item">
                         <PartnerSection />
+                    </div>
+                </div>
+            </div>
+            <div className="home-quote-container">
+                <div className="home-quote-container-flex">
+                    <div className="home-quote-container-item">
+                        <QuoteSection />
+                    </div>
+                </div>
+            </div>
+            <div className="home-testimony-container">
+                <div className="home-testimony-container-flex">
+                    <div className="home-testimony-container-item">
+                        <TestimonySection />
                     </div>
                 </div>
             </div>

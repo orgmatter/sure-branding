@@ -25,7 +25,27 @@ export default function AboutUsSection() {
                                 <div className="right-section-image-cover">
                                     <div className="image-cover-flex">
                                         <div className="image-cover-item">
+                                            <img className="right-section-img" src={IMAGES.src.surebrandProducts.bag1} alt="sure branding image" />
+                                        </div>
+                                    </div>
+                                    <div className="image-cover-flex">
+                                        <div className="image-cover-item">
+                                            <img className="right-section-img" src={IMAGES.src.surebrandProducts.mug1} alt="sure branding image" />
+                                        </div>
+                                    </div>
+                                    <div className="image-cover-flex">
+                                        <div className="image-cover-item">
+                                            <img className="right-section-img" src={IMAGES.src.surebrandProducts.shirt3} alt="sure branding image" />
+                                        </div>
+                                    </div>
+                                    <div className="image-cover-flex">
+                                        <div className="image-cover-item">
                                             <img className="right-section-img" src={IMAGES.src.surebrandProducts.shirt6} alt="sure branding image" />
+                                        </div>
+                                    </div>
+                                    <div className="image-cover-flex">
+                                        <div className="image-cover-item">
+                                            <img className="right-section-img" src={IMAGES.src.surebrandProducts.hood2} alt="sure branding image" />
                                         </div>
                                     </div>
                                 </div>
@@ -37,10 +57,10 @@ export default function AboutUsSection() {
                                     <p className="header-text-underline-cover"><span className="text-underline-span"></span></p>
                                 </div>
                                 <div className="content-title-cover">
-                                    <h2 className="header-title"><b>Sure Branding Nigeria</b> is a printing company that liverage on latest technology to provide quality printing and branding services to meet your everyday occassion.</h2>
+                                    <h2 className="header-title">Sure Branding Nigeria is a printing company that liverage on latest technology to provide quality printing and branding services that meets your everyday occassion.</h2>
                                 </div>
                                 <div className="content-subtitle-cover">
-                                    <p className="header-subtitle">From parties, weddings, birthdays, campaigns, gifts, business, education whatever and wherever the occassion is, <b>sure branding</b> is committed to provide the best printing and branding services with a guaranteed customer satisfaction.</p>
+                                    <p className="header-subtitle">From parties, weddings, birthdays, campaigns, gifts, business, education whatever and wherever the occassion is, sure branding is committed to provide the best printing and branding services with a guaranteed customer satisfaction.</p>
                                 </div>
                                 <div className="content-link-cover">
                                     <div className="content-link-cover-flex">

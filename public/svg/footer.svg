@@ -1,0 +1,3 @@
+<svg className="footer-curve-svg1" width="100%" height="100%" viewBox="0 0 100% 100%" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);">
+    <path className="footer-svg-curve-path1" d="M0,500 C50,530 50,450 150,500 C250,540 250,450 350,500 C450,540 450,450 550,500 C650,540 650,450 750,500 C850,540 850,450 950,500 C1050,540 1050,450 1150,500 C1250,540 1250,450 1450,500 V-10 H0 Z" stroke="none" fill="rgb(13, 20, 34)" />
+</svg>
